@@ -1,0 +1,6 @@
+# Railway builds on Linux. CRLF in the Procfile or start command breaks the deploy.
+* text=auto eol=lf
+Procfile text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+static/index.html -text
